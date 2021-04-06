@@ -1,0 +1,154 @@
+#ifndef __MCAL_REG_H
+#define __MCAL_REG_H
+
+#include <cstdint>
+#include "mcal_reg_access.h"
+#include "mcal_reg_access_dynamic.h"
+
+namespace mcal{
+	namespace reg{
+		// Global base addresses
+		const std::uint32_t periph_base						= 0x40000000U;
+		
+		// Individual unit base addresses
+		const std::uint32_t ahb1_periph_base			= periph_base + 0x00020000U;
+		const std::uint32_t rcc_base							= periph_base + 0x00003800U;
+		const std::uint32_t ahb1enr								= rcc_base + 0x0030U;
+		const std::uint32_t ahb2enr								= rcc_base + 0x0034U;
+		const std::uint32_t ahb3enr								= rcc_base + 0x0038U;
+
+		const std::uint32_t gpioa_base						= ahb1_periph_base + 0x0000U;
+		const std::uint32_t gpiob_base						= ahb1_periph_base + 0x0400U;
+		const std::uint32_t gpioc_base						= ahb1_periph_base + 0x0800U;
+		const std::uint32_t gpiod_base						= ahb1_periph_base + 0x0C00U;
+		const std::uint32_t gpioe_base						= ahb1_periph_base + 0x1000U;
+		const std::uint32_t gpiof_base						= ahb1_periph_base + 0x1400U;
+		const std::uint32_t gpiog_base						= ahb1_periph_base + 0x1800U;
+		const std::uint32_t gpioh_base						= ahb1_periph_base + 0x1C00U;
+		const std::uint32_t gpioi_base						= ahb1_periph_base + 0x2000U;
+		
+		// Port registers
+		const std::uint32_t moder_offset					= 0x00U;
+		const std::uint32_t otyper_offset					= 0x004;
+		const std::uint32_t ospeedr_offset				= 0x08U;
+		const std::uint32_t pupdr_offset					= 0x0CU;
+		const std::uint32_t idr_offset						= 0x10U;
+		const std::uint32_t odr_offset						= 0x14U;
+		const std::uint32_t bssr_offset						= 0x18U;
+		const std::uint32_t lckr_offset						= 0x1CU;
+		const std::uint32_t afrl_offset						= 0x20U;
+		const std::uint32_t afrh_offset						= 0x24U;
+
+		// GPIOA
+		const std::uint32_t gpioa_moder						= gpioa_base + moder_offset;
+		const std::uint32_t gpioa_otyper					= gpioa_base + otyper_offset;
+		const std::uint32_t gpioa_ospeedr					= gpioa_base + ospeedr_offset;
+		const std::uint32_t gpioa_pupdr						= gpioa_base + pupdr_offset;
+		const std::uint32_t gpioa_idr							= gpioa_base + idr_offset;
+		const std::uint32_t gpioa_odr							= gpioa_base + odr_offset;
+		const std::uint32_t gpioa_bssr						= gpioa_base + bssr_offset;
+		const std::uint32_t gpioa_lckr						= gpioa_base + lckr_offset;
+		const std::uint32_t gpioa_afrl						= gpioa_base + afrl_offset;
+		const std::uint32_t gpioa_afrh						= gpioa_base + afrh_offset;
+		
+		// GPIOB
+		const std::uint32_t gpiob_moder						= gpiob_base + moder_offset;
+		const std::uint32_t gpiob_otyper					= gpiob_base + otyper_offset;
+		const std::uint32_t gpiob_ospeedr					= gpiob_base + ospeedr_offset;
+		const std::uint32_t gpiob_pupdr						= gpiob_base + pupdr_offset;
+		const std::uint32_t gpiob_idr							= gpiob_base + idr_offset;
+		const std::uint32_t gpiob_odr							= gpiob_base + odr_offset;
+		const std::uint32_t gpiob_bssr						= gpiob_base + bssr_offset;
+		const std::uint32_t gpiob_lckr						= gpiob_base + lckr_offset;
+		const std::uint32_t gpiob_afrl						= gpiob_base + afrl_offset;
+		const std::uint32_t gpiob_afrh						= gpiob_base + afrh_offset;
+		
+		// GPIOC
+		const std::uint32_t gpioc_moder						= gpioc_base + moder_offset;
+		const std::uint32_t gpioc_otyper					= gpioc_base + otyper_offset;
+		const std::uint32_t gpioc_ospeedr					= gpioc_base + ospeedr_offset;
+		const std::uint32_t gpioc_pupdr						= gpioc_base + pupdr_offset;
+		const std::uint32_t gpioc_idr							= gpioc_base + idr_offset;
+		const std::uint32_t gpioc_odr							= gpioc_base + odr_offset;
+		const std::uint32_t gpioc_bssr						= gpioc_base + bssr_offset;
+		const std::uint32_t gpioc_lckr						= gpioc_base + lckr_offset;
+		const std::uint32_t gpioc_afrl						= gpioc_base + afrl_offset;
+		const std::uint32_t gpioc_afrh						= gpioc_base + afrh_offset;
+		
+		// GPIOD
+		const std::uint32_t gpiod_moder						= gpiod_base + moder_offset;
+		const std::uint32_t gpiod_otyper					= gpiod_base + otyper_offset;
+		const std::uint32_t gpiod_ospeedr					= gpiod_base + ospeedr_offset;
+		const std::uint32_t gpiod_pupdr						= gpiod_base + pupdr_offset;
+		const std::uint32_t gpiod_idr							= gpiod_base + idr_offset;
+		const std::uint32_t gpiod_odr							= gpiod_base + odr_offset;
+		const std::uint32_t gpiod_bssr						= gpiod_base + bssr_offset;
+		const std::uint32_t gpiod_lckr						= gpiod_base + lckr_offset;
+		const std::uint32_t gpiod_afrl						= gpiod_base + afrl_offset;
+		const std::uint32_t gpiod_afrh						= gpiod_base + afrh_offset;
+	
+		// GPIOE
+		const std::uint32_t gpioe_moder						= gpioe_base + moder_offset;
+		const std::uint32_t gpioe_otyper					= gpioe_base + otyper_offset;
+		const std::uint32_t gpioe_ospeedr					= gpioe_base + ospeedr_offset;
+		const std::uint32_t gpioe_pupdr						= gpioe_base + pupdr_offset;
+		const std::uint32_t gpioe_idr							= gpioe_base + idr_offset;
+		const std::uint32_t gpioe_odr							= gpioe_base + odr_offset;
+		const std::uint32_t gpioe_bssr						= gpioe_base + bssr_offset;
+		const std::uint32_t gpioe_lckr						= gpioe_base + lckr_offset;
+		const std::uint32_t gpioe_afrl						= gpioe_base + afrl_offset;
+		const std::uint32_t gpioe_afrh						= gpioe_base + afrh_offset;
+
+		// GPIOF
+		const std::uint32_t gpiof_moder						= gpiof_base + moder_offset;
+		const std::uint32_t gpiof_otyper					= gpiof_base + otyper_offset;
+		const std::uint32_t gpiof_ospeedr					= gpiof_base + ospeedr_offset;
+		const std::uint32_t gpiof_pupdr						= gpiof_base + pupdr_offset;
+		const std::uint32_t gpiof_idr							= gpiof_base + idr_offset;
+		const std::uint32_t gpiof_odr							= gpiof_base + odr_offset;
+		const std::uint32_t gpiof_bssr						= gpiof_base + bssr_offset;
+		const std::uint32_t gpiof_lckr						= gpiof_base + lckr_offset;
+		const std::uint32_t gpiof_afrl						= gpiof_base + afrl_offset;
+		const std::uint32_t gpiof_afrh						= gpiof_base + afrh_offset;
+		
+		// GPIOG
+		const std::uint32_t gpiog_moder						= gpiog_base + moder_offset;
+		const std::uint32_t gpiog_otyper					= gpiog_base + otyper_offset;
+		const std::uint32_t gpiog_ospeedr					= gpiog_base + ospeedr_offset;
+		const std::uint32_t gpiog_pupdr						= gpiog_base + pupdr_offset;
+		const std::uint32_t gpiog_idr							= gpiog_base + idr_offset;
+		const std::uint32_t gpiog_odr							= gpiog_base + odr_offset;
+		const std::uint32_t gpiog_bssr						= gpiog_base + bssr_offset;
+		const std::uint32_t gpiog_lckr						= gpiog_base + lckr_offset;
+		const std::uint32_t gpiog_afrl						= gpiog_base + afrl_offset;
+		const std::uint32_t gpiog_afrh						= gpiog_base + afrh_offset;
+		
+		// GPIOH
+		const std::uint32_t gpioh_moder						= gpioh_base + moder_offset;
+		const std::uint32_t gpioh_otyper					= gpioh_base + otyper_offset;
+		const std::uint32_t gpioh_ospeedr					= gpioh_base + ospeedr_offset;
+		const std::uint32_t gpioh_pupdr						= gpioh_base + pupdr_offset;
+		const std::uint32_t gpioh_idr							= gpioh_base + idr_offset;
+		const std::uint32_t gpioh_odr							= gpioh_base + odr_offset;
+		const std::uint32_t gpioh_bssr						= gpioh_base + bssr_offset;
+		const std::uint32_t gpioh_lckr						= gpioh_base + lckr_offset;
+		const std::uint32_t gpioh_afrl						= gpioh_base + afrl_offset;
+		const std::uint32_t gpioh_afrh						= gpioh_base + afrh_offset;
+		
+		// GPIOI
+		const std::uint32_t gpioi_moder						= gpioi_base + moder_offset;
+		const std::uint32_t gpioi_otyper					= gpioi_base + otyper_offset;
+		const std::uint32_t gpioi_ospeedr					= gpioi_base + ospeedr_offset;
+		const std::uint32_t gpioi_pupdr						= gpioi_base + pupdr_offset;
+		const std::uint32_t gpioi_idr							= gpioi_base + idr_offset;
+		const std::uint32_t gpioi_odr							= gpioi_base + odr_offset;
+		const std::uint32_t gpioi_bssr						= gpioi_base + bssr_offset;
+		const std::uint32_t gpioi_lckr						= gpioi_base + lckr_offset;
+		const std::uint32_t gpioi_afrl						= gpioi_base + afrl_offset;
+		const std::uint32_t gpioi_afrh						= gpioi_base + afrh_offset;
+
+	} // END Namespace reg
+} // END Namespace mcal
+
+#endif // __MCAL_REG_H
+
