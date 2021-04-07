@@ -1,8 +1,8 @@
 Dependencies for Project 'project', Target 'STM32F407': (DO NOT MODIFY !)
-F (.\App\main.cpp)(0x606D8E29)(--cpp -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I App -I Drivers -I Libs -I /Drivers-I.\RTE\_STM32F407-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\App\main.cpp)(0x606D92D1)(--cpp -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I App -I Drivers -I Libs -I /Drivers-I.\RTE\_STM32F407-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (Drivers\uart.h)(0x5FBB81B2)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEBCE42)
-I (Drivers\adc.h)(0x606D8D1E)
+I (Drivers\adc.h)(0x606D9262)
 I (Drivers\mcal_reg.h)(0x606D8C7C)
 I (C:\Keil_v5\ARM\ARMCC\include\cstdint)(0x5CEBCE36)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
@@ -44,14 +44,14 @@ I (C:\Keil_v5\ARM\ARMCC\include\cstdint)(0x5CEBCE36)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
 I (Drivers\mcal_reg_access.h)(0x5FA90EA3)
 I (Drivers\mcal_reg_access_dynamic.h)(0x5FA90EF2)
-F (.\Drivers\adc.cpp)(0x606D8E59)(--cpp -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I App -I Drivers -I Libs -I /Drivers-I.\RTE\_STM32F407-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
-I (Drivers\adc.h)(0x606D8D1E)
+F (.\Drivers\adc.cpp)(0x606D92CF)(--cpp -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I App -I Drivers -I Libs -I /Drivers-I.\RTE\_STM32F407-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (Drivers\adc.h)(0x606D9262)
 I (Drivers\mcal_reg.h)(0x606D8C7C)
 I (C:\Keil_v5\ARM\ARMCC\include\cstdint)(0x5CEBCE36)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
 I (Drivers\mcal_reg_access.h)(0x5FA90EA3)
 I (Drivers\mcal_reg_access_dynamic.h)(0x5FA90EF2)
-F (.\Drivers\adc.h)(0x606D8D1E)()
+F (.\Drivers\adc.h)(0x606D9262)()
 F (RTE\Device\STM32F407IGHx\startup_stm32f407xx.s)(0x606D7A3B)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_STM32F407-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1"--list .\listings\startup_stm32f407xx.lst --xref -o .\objects\startup_stm32f407xx.o --depend .\objects\startup_stm32f407xx.d)
 F (RTE\Device\STM32F407IGHx\system_stm32f4xx.c)(0x5C5BF292)(--gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I App -I Drivers -I Libs -I /Drivers-I.\RTE\_STM32F407-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5C5BF292)
