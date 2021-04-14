@@ -1,7 +1,7 @@
-#ifndef __MCAL_REG_H
-#define __MCAL_REG_H
+#pragma once
 
-#include <cstdint>
+//#include <cstdint>
+#include <stdint.h>
 #include "mcal_reg_access.h"
 #include "mcal_reg_access_dynamic.h"
 
@@ -44,7 +44,7 @@ namespace mcal{
 		// TIM2 Base Address
 		const std::uint32_t tim2_base							= periph_base;
 		const std::uint32_t tim3_base							= periph_base + 0x0400U;
-		
+		const std::uint32_t tim_offset						= 0x400;
 		
 		
 
@@ -323,5 +323,4 @@ namespace mcal{
 	} // END Namespace reg
 } // END Namespace mcal
 
-#endif // __MCAL_REG_H
 

@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=nMZhsXAsDLU
+
+
+Datei "KEIL_STM32F4.ini"  in "Project/Options.../Debug/UseSimulator/Initialization File " laden
+Parameter "-MAP" entfernen

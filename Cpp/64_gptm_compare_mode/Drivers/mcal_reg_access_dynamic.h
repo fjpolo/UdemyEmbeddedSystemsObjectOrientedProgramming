@@ -1,5 +1,4 @@
-#ifndef __MCAL_REG_ACCESS_DYNAMIC_H
-#define __MCAL_REG_ACCESS_DYNAMIC_H
+#pragma once
 
 namespace mcal{
     namespace reg{
@@ -42,5 +41,4 @@ namespace mcal{
     } // END Namespace reg
 } // END Namespace mcal
 
-#endif // __MCAL_REG_ACCESS_DYNAMIC_H
 

@@ -1,5 +1,4 @@
-#ifndef __MCAL_REG_ACCESS_H
-#define __MCAL_REG_ACCESS_H
+#pragma once
 
 namespace mcal{
     namespace reg{
@@ -43,5 +42,4 @@ namespace mcal{
 				};
     } // END Namespaca reg
 } // END Namespace mcal
-#endif // __MCAL_REG_ACCESS_H
 

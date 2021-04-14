@@ -139,62 +139,62 @@ int uart6_read(void){
 	return rcv_ch;
 }
 
-/**
-* Bind console to uart
-*/
-namespace std {
-  struct __FILE
-  {
-    int handle;
-    /* Whatever you require here. If the only file you are using is */
-    /* standard output using printf() for debugging, no file handling */
-    /* is required. */
-  };
-  FILE __stdout;
-  FILE __stdin;
-  FILE __stderr;
-	
-  int fgetc(FILE *f)
-  {
-    /* Your implementation of fgetc(). */
-		int c;
-		c = uart6_read();
-		if(c == '\r'){
-			usart6_write(c);
-			c = '\n';
-		}
-		usart6_write(c);
-    return c;
-  }
-  int fputc(int c, FILE *stream)
-  {
-    /* Your implementation of fputc(). */
-		return usart6_write(c);
-  }
-  int ferror(FILE *stream)
-  {
-    /* Your implementation of ferror(). */
-		return 0;
-  }
-  long int ftell(FILE *stream)
-  {
-    /* Your implementation of ftell(). */
-		return 0;
-  }
-  int fclose(FILE *f)
-  {
-    /* Your implementation of fclose(). */
-    return 0;
-  }
-  int fseek(FILE *f, long nPos, int nMode)
-  {
-    /* Your implementation of fseek(). */
-    return 0;
-  }
-  int fflush(FILE *f)
-  {
-    /* Your implementation of fflush(). */    
-    return 0;
-  }
-}
+///**
+//* Bind console to uart
+//*/
+//namespace std {
+//  struct __FILE
+//  {
+//    int handle;
+//    /* Whatever you require here. If the only file you are using is */
+//    /* standard output using printf() for debugging, no file handling */
+//    /* is required. */
+//  };
+//  FILE __stdout;
+//  FILE __stdin;
+//  FILE __stderr;
+//	
+//  int fgetc(FILE *f)
+//  {
+//    /* Your implementation of fgetc(). */
+//		int c;
+//		c = uart6_read();
+//		if(c == '\r'){
+//			usart6_write(c);
+//			c = '\n';
+//		}
+//		usart6_write(c);
+//    return c;
+//  }
+//  int fputc(int c, FILE *stream)
+//  {
+//    /* Your implementation of fputc(). */
+//		return usart6_write(c);
+//  }
+//  int ferror(FILE *stream)
+//  {
+//    /* Your implementation of ferror(). */
+//		return 0;
+//  }
+//  long int ftell(FILE *stream)
+//  {
+//    /* Your implementation of ftell(). */
+//		return 0;
+//  }
+//  int fclose(FILE *f)
+//  {
+//    /* Your implementation of fclose(). */
+//    return 0;
+//  }
+//  int fseek(FILE *f, long nPos, int nMode)
+//  {
+//    /* Your implementation of fseek(). */
+//    return 0;
+//  }
+//  int fflush(FILE *f)
+//  {
+//    /* Your implementation of fflush(). */    
+//    return 0;
+//  }
+//}
 
