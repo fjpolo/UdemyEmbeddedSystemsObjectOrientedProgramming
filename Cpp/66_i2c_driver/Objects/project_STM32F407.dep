@@ -1,0 +1,100 @@
+Dependencies for Project 'project', Target 'STM32F407': (DO NOT MODIFY !)
+F (.\App\main.cpp)(0x60798D0C)(-xc++ -std=gnu++14 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I App -I Drivers -I Libs -I /Drivers-I./RTE/_STM32F407-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.6.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx-o ./objects/main.o -MD)
+I (Drivers\uart.h)(0x6076E5E0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x5CEBCD3C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x5CEBCD46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEBCD4A)
+I (Drivers\systick.h)(0x6076E5D9)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x5CEBCD46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBCD48)
+I (Drivers\tim2.h)(0x60797F4C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x5CEBCD3C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5CEBCD48)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x5CEBCD42)
+I (Drivers\mcal_reg.h)(0x607971AC)
+I (Drivers\mcal_reg_access.h)(0x60798059)
+I (Drivers\mcal_reg_access_dynamic.h)(0x6076E59E)
+I (Drivers\DS1307.h)(0x60798C91)
+I (Drivers\i2c.h)(0x607989BF)
+F (.\Drivers\mcal_reg_access.h)(0x60798059)()
+F (.\Drivers\mcal_reg_access_dynamic.h)(0x6076E59E)()
+F (.\Drivers\mcal_reg.h)(0x607971AC)()
+F (.\Drivers\uart.cpp)(0x6076E1CE)(-xc++ -std=gnu++14 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I App -I Drivers -I Libs -I /Drivers-I./RTE/_STM32F407-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.6.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx-o ./objects/uart.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x5CEBCD3C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x5CEBCD46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEBCD4A)
+I (Drivers\uart.h)(0x6076E5E0)
+I (Drivers\mcal_reg.h)(0x607971AC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x5CEBCD46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBCD48)
+I (Drivers\mcal_reg_access.h)(0x60798059)
+I (Drivers\mcal_reg_access_dynamic.h)(0x6076E59E)
+F (.\Drivers\uart.h)(0x6076E5E0)()
+F (.\Drivers\systick.h)(0x6076E5D9)()
+F (.\Drivers\systick.cpp)(0x606D755E)(-xc++ -std=gnu++14 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I App -I Drivers -I Libs -I /Drivers-I./RTE/_STM32F407-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.6.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx-o ./objects/systick.o -MD)
+I (Drivers\systick.h)(0x6076E5D9)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x5CEBCD46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x5CEBCD46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBCD48)
+I (Drivers\mcal_reg.h)(0x607971AC)
+I (Drivers\mcal_reg_access.h)(0x60798059)
+I (Drivers\mcal_reg_access_dynamic.h)(0x6076E59E)
+F (.\Drivers\tim2.h)(0x60797F4C)()
+F (.\Drivers\tim2.cpp)(0x6076EDEE)(-xc++ -std=gnu++14 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I App -I Drivers -I Libs -I /Drivers-I./RTE/_STM32F407-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.6.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx-o ./objects/tim2.o -MD)
+I (Drivers\tim2.h)(0x60797F4C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x5CEBCD3C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x5CEBCD46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5CEBCD48)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x5CEBCD42)
+I (Drivers\mcal_reg.h)(0x607971AC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x5CEBCD46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBCD48)
+I (Drivers\mcal_reg_access.h)(0x60798059)
+I (Drivers\mcal_reg_access_dynamic.h)(0x6076E59E)
+F (.\Drivers\tim3.h)(0x6076E5B2)()
+F (.\Drivers\tim3.cpp)(0x606D8177)(-xc++ -std=gnu++14 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I App -I Drivers -I Libs -I /Drivers-I./RTE/_STM32F407-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.6.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx-o ./objects/tim3.o -MD)
+I (Drivers\tim3.h)(0x6076E5B2)
+I (Drivers\mcal_reg.h)(0x607971AC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x5CEBCD46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x5CEBCD46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBCD48)
+I (Drivers\mcal_reg_access.h)(0x60798059)
+I (Drivers\mcal_reg_access_dynamic.h)(0x6076E59E)
+F (.\Drivers\i2c.cpp)(0x60798A95)(-xc++ -std=gnu++14 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I App -I Drivers -I Libs -I /Drivers-I./RTE/_STM32F407-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.6.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx-o ./objects/i2c.o -MD)
+I (Drivers\i2c.h)(0x607989BF)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x5CEBCD3C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x5CEBCD46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5CEBCD48)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x5CEBCD42)
+I (Drivers\mcal_reg.h)(0x607971AC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x5CEBCD46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBCD48)
+I (Drivers\mcal_reg_access.h)(0x60798059)
+I (Drivers\mcal_reg_access_dynamic.h)(0x6076E59E)
+F (.\Drivers\i2c.h)(0x607989BF)()
+F (.\Drivers\DS1307.h)(0x60798C91)()
+F (.\Drivers\DS1307.cpp)(0x60798CAE)(-xc++ -std=gnu++14 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I App -I Drivers -I Libs -I /Drivers-I./RTE/_STM32F407-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.6.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx-o ./objects/ds1307.o -MD)
+I (Drivers\DS1307.h)(0x60798C91)
+I (Drivers\i2c.h)(0x607989BF)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x5CEBCD3C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x5CEBCD46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5CEBCD48)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x5CEBCD42)
+I (Drivers\mcal_reg.h)(0x607971AC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x5CEBCD46)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBCD48)
+I (Drivers\mcal_reg_access.h)(0x60798059)
+I (Drivers\mcal_reg_access_dynamic.h)(0x6076E59E)
+F (RTE\Device\STM32F407IGHx\startup_stm32f407xx.s)(0x606D7A3B)(--cpu Cortex-M4.fp -g-I.\RTE\_STM32F407-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 528"--pd "_RTE_ SETA 1"--pd "STM32F407xx SETA 1"--list .\listings\startup_stm32f407xx.lst--xref -o .\objects\startup_stm32f407xx.o--depend .\objects\startup_stm32f407xx.d)
+F (RTE\Device\STM32F407IGHx\system_stm32f4xx.c)(0x5C5BF292)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I App -I Drivers -I Libs -I /Drivers-I./RTE/_STM32F407-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.6.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx-o ./objects/system_stm32f4xx.o -MD)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5C5BF292)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x5C5BF292)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBCD48)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBCD4A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBCD4A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8FB044)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5C5BF292)
