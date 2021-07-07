@@ -24,19 +24,19 @@ int main(void){
 	mcal::reg::reg_access<std::uint32_t, 
 												std::uint32_t, 
 												mcal::reg::gpiob_moder,
-												(1U<<(2*1U))								// Pin 1
+												(0U<<(2*1U))								// Pin 1
 											 >::reg_or();
 	mcal::reg::reg_access<std::uint32_t, 
 												std::uint32_t, 
 												mcal::reg::gpiob_moder,
-												(1U<<((2*1U)+1U))						// Pin 1
+												(0U<<((2*1U)+1U))						// Pin 1
 											 >::reg_or();
 											 
 	/* 4. Set PI7 as output */
 	mcal::reg::reg_access<std::uint32_t, 
 												std::uint32_t, 
 												mcal::reg::gpioi_moder,
-												(0U<<(2*7U))						// Pin 7
+												(1U<<(2*7U))						// Pin 7
 											 >::reg_or();
 
 	
